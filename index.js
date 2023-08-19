@@ -58,6 +58,7 @@ function createDogImage(dog){
     console.log(dog)
     const newDogImage = document.createElement("div")
     const dogImage = document.createElement("img")
+    const breaker = document.createElement("br")
     const dogImageContainer = document.querySelector(".dogImages")
     newDogImage.className = dog.id
     const deleteButton = document.createElement("button")
@@ -66,6 +67,7 @@ function createDogImage(dog){
     deleteButton.className = "deleteButtonClass"
 
     newDogImage.appendChild(dogImage)
+    newDogImage.appendChild(breaker)
     newDogImage.appendChild(deleteButton)
     dogImageContainer.appendChild(newDogImage)
     deleteButton.addEventListener("click", function(){

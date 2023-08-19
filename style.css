@@ -22,7 +22,8 @@ button:hover {
 
 .dogImages{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 img {
@@ -30,6 +31,3 @@ img {
     width: 200px;
 }
 
-.deleteButtonClass{
-    margin: auto;
-}
