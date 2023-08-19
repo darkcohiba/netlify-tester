@@ -46,7 +46,7 @@ console.log("hello")
 //     setupText.textContent = ""
 // }
 
-console.log(CONFIG.DOG_API_KEY)
+// console.log(CONFIG.DOG_API_KEY)
 function fetchDog(){
 fetch(`https://api.thedogapi.com/v1/images/search`)
 .then(response => response.json())

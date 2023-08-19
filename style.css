@@ -19,9 +19,7 @@ button:hover {
     height: 100px;
     width: 100px;
 }
-.dogSpace{
-    margin: auto;
-}
+
 .dogImages{
     display: flex;
     flex-flow: column wrap;
