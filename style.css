@@ -19,3 +19,19 @@ button:hover {
     height: 100px;
     width: 100px;
 }
+.dogSpace{
+    margin: auto;
+}
+.dogImages{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.deleteButtonClass{
+    margin: auto;
+}
