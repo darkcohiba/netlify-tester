@@ -62,7 +62,7 @@ function createDogImage(dog){
     const dogImageContainer = document.querySelector(".dogImages")
     newDogImage.className = dog.id
     const deleteButton = document.createElement("button")
-    deleteButton.textContent = "Delete"
+    deleteButton.textContent = "Click to Delete"
     dogImage.src = dog.url
     deleteButton.className = "deleteButtonClass"
 
